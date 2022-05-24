@@ -23,6 +23,8 @@
 .header h1,h2{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color:#FFD124;
+    padding-right:16px;
+
 }
 
 .header a{
@@ -32,7 +34,7 @@
 
 
 .nav ul li {
-    background-color:white;
+    background-color:linear-gradient(159.17deg, #006778 -9.41%, #FFD124 97.45%);
     display:inline-block;
     flex-direction:space-between;
     padding: 20px;
@@ -51,8 +53,6 @@
     flex-direction:row;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(159.17deg, #006778 -9.41%, #FFD124 97.45%);
-    
 
 }
 
@@ -130,7 +130,7 @@
 }
 @keyframes un_efecto {
   from {background-color: #FFD124 ;} 
-  to {background-color: #006778;}
+  to {background-color: white;}
 }
 
   
@@ -151,7 +151,6 @@
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-    animation: mymove 5s infinite;
   }
 
   .fa-facebook {
@@ -355,7 +354,7 @@
   
   
   .nav ul li {
-      background-color:#006778;
+      background-color: linear-gradient(159.17deg, #006778 -9.41%, #FFD124 97.45%);
       display:flex;
       flex-direction:column;
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
